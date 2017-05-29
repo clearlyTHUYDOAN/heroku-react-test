@@ -6,6 +6,7 @@
     "react-scripts": "1.0.7"
   },
   "dependencies": {
+    "react-scripts": "1.0.7",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
@@ -13,6 +14,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npm install express"
+  },
+  "engines": {
+    "node": "7.9.0",
+    "npm": "4.2.0"
   }
 }

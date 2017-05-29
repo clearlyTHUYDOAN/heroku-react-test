@@ -16,5 +16,9 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "postinstall": "npm install express"
+  },
+  "engines": {
+    "node": "7.9.0",
+    "npm": "4.2.0"
   }
 }
